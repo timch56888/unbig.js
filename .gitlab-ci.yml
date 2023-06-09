@@ -8,7 +8,10 @@ update-packagist:
     - npm config set _authToken=$NPM_TOKEN
     - npm publish --tag $BRANCH
   only:
-    - dev
-    - alpha
-    - beta
-    - master
+    refs:
+      - dev
+      - alpha
+      - beta
+      - master
+    changes:
+      - package.json
