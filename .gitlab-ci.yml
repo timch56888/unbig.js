@@ -1,4 +1,4 @@
-update-packagist:
+publish:
   image: ${CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX}/node:lts
   stage: deploy
   environment:
