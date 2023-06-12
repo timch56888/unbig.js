@@ -1,5 +1,5 @@
 {
-  "name": "@universetech/big.js",
+  "name": "@universetech-inc/unbig.js",
   "description": "A small, fast, easy-to-use library for arbitrary-precision decimal arithmetic",
   "version": "6.2.2",
   "keywords": [
