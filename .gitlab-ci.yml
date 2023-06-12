@@ -4,7 +4,8 @@ publish:
   environment:
     name: $CI_COMMIT_REF_SLUG
   script:
-    - npm publish --tag $BRANCH
+    - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+    - npm publish --tag $VERSION_TAG
   only:
     refs:
       - dev
