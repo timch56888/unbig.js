@@ -1,0 +1,16 @@
+publish:
+  image: ${CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX}/node:lts
+  stage: deploy
+  environment:
+    name: $CI_COMMIT_REF_SLUG
+  script:
+    - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+    - npm publish --tag $VERSION_TAG --access public
+  only:
+    refs:
+      - dev
+      - alpha
+      - beta
+      - master
+    changes:
+      - package.json
