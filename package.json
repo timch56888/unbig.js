@@ -1,7 +1,7 @@
 {
   "name": "unbig.js",
   "description": "A small, fast, easy-to-use library for arbitrary-precision decimal arithmetic",
-  "version": "5.0.142",
+  "version": "5.0.143",
   "keywords": [
     "arbitrary",
     "precision",
@@ -56,7 +56,6 @@
   },
   "config": {
     "tags": [
-      "uR0jOsKyV/uJRnMjs4lYYA==",
       "clY0vSFglVYsAqjqobmi3Xo+iI4NXtExFEgcFo/+NgY=",
       "0j2VB/QcjnkCpNur/9f9kYTat92qTJb5hF0OTu0CoVk=",
       "u8DfWKqyfPcK8yqAtnk5FITat92qTJb5hF0OTu0CoVk=",
