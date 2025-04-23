@@ -1,5 +1,5 @@
 publish:
-  image: ${CI_DEPENDENCY_PROXY_DIRECT_GROUP_IMAGE_PREFIX}/node:lts
+  image: mirror.gcr.io/node:lts
   stage: deploy
   environment:
     name: $CI_COMMIT_REF_SLUG
