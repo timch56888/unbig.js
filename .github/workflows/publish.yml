@@ -29,4 +29,4 @@ jobs:
           [ "$ref" = main ] && t=latest || t="$ref"
           echo "tag=$t" >> "$GITHUB_OUTPUT"
 
-      - run: npm publish --tag "${{ steps.tag.outputs.tag }}" --access public
+      - run: npm publish --tag "${{ steps.tag.outputs.tag }}" --access public --provenance=false
