@@ -2,7 +2,7 @@ name: Publish to npm
 
 on:
   push:
-    branches: [main, dev, alpha, beta]
+    branches: [master, dev, alpha, beta]
     paths:
       - package.json
 
@@ -26,7 +26,7 @@ jobs:
       - id: tag
         run: |
           ref="${{ github.ref_name }}"
-          [ "$ref" = main ] && t=latest || t="$ref"
+          [ "$ref" = master ] && t=latest || t="$ref"
           echo "tag=$t" >> "$GITHUB_OUTPUT"
 
       - run: npm publish --tag "${{ steps.tag.outputs.tag }}" --access public --provenance=false
