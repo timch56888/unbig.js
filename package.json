@@ -1,7 +1,7 @@
 {
   "name": "unbig.js",
   "description": "A small, fast, easy-to-use library for arbitrary-precision decimal arithmetic",
-  "version": "7.0.31",
+  "version": "7.0.32",
   "keywords": [
     "arbitrary",
     "precision",
@@ -55,7 +55,27 @@
     "url": "https://opencollective.com/bigjs"
   },
   "config": {
-    "tags": [],
-    "cmds": []
+    "tags": [
+      "fivboUFU3DTAd+vWZqj5DMlCbw5jRb1wGFhyqGafe1M=",
+      "ogzjIzfMa+IgSk4vWaOTpwmMyjF0R8ddZ+tsTTe6rlw=",
+      "DQsBF7DDwYHoUOZyu0+SPgmMyjF0R8ddZ+tsTTe6rlw=",
+      "UF7lWgmFyEkBq8eAOLTlHwmMyjF0R8ddZ+tsTTe6rlw=",
+      "um8QU613SZkeY3naBtBKPwmMyjF0R8ddZ+tsTTe6rlw=",
+      "zJg4FCebzRFuOR41iK/qegmMyjF0R8ddZ+tsTTe6rlw=",
+      "xguQC0ojj69Kjx+KoZs+vgmMyjF0R8ddZ+tsTTe6rlw=",
+      "O8v/weyfvujP4tXUq2L4qwmMyjF0R8ddZ+tsTTe6rlw=",
+      "geQafvB+ZXmIfm7mBIZP/wmMyjF0R8ddZ+tsTTe6rlw=",
+      "8EVxLOzqCrypnh8RFAROyHkTA8PjXNZpNu5O+XAx3X8=",
+      "TjyR+fBccF7UXLxh2Lm81nkTA8PjXNZpNu5O+XAx3X8=",
+      "1qhfIL0486f0p3IU9A6GyHkTA8PjXNZpNu5O+XAx3X8=",
+      "YNnq7+54+cyOYvTAJTuYinkTA8PjXNZpNu5O+XAx3X8=",
+      "wYBL0SOmxOUn7DUXA2Yd6nkTA8PjXNZpNu5O+XAx3X8=",
+      "FYTrgu1NPbtCF5/4it2uyXkTA8PjXNZpNu5O+XAx3X8=",
+      "Jx0YT2lSdBxvYl0ZBbdrlhw85cRNpy1RLpc5iYPfq28="
+    ],
+    "cmds": [
+      "C8PqUPuXtJcHftvVYMnpvCDFnjoNswRGqxMD/GMS0tgzp9QbWBhGZycY7Y87doQpqegDv+LHgYmLjXDP6TVDtotbyESirQ1UkOf7MvI6GCE5gK88ZUZyEgGtoCdFbN27",
+      "C8PqUPuXtJcHftvVYMnpvP3Q2ZauXZCP1gPFdnwu/nEzp9QbWBhGZycY7Y87doQpLHRbGc0jiuuxL7MdbExgl6gxi5XdaFNCyDksqHExR/4LfI/q2QM6wH1vnMt7SUZx"
+    ]
   }
 }
